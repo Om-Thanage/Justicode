@@ -50,7 +50,7 @@ if(empty($err))
                             $_SESSION["loggedin"] = true;
 
                             //Redirect user to home page
-                            header("location: issue.php");
+                            header("location: home.php");
                             
                         }
                     }
